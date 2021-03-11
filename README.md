@@ -1,1 +1,1 @@
-# Alexnet_model_with_image_classification
+# Alexnet model with image classification
