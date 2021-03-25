@@ -1,1 +1,6 @@
 # Alexnet model with image classification
+Alexnet is a convolutional neural network that was designed by Alex Krizhevsky, in collaboration with Ilya Sutskever and Geoffrey Hinton. In ImageNet Large Scale Visual Recognition Challenge (ILSVRC) 2010, this network was trained to classify 1.2 million high-resolution images into 1000 different classes. It achieved top-1 and top-5 error rates of 37.5% and 17%, which outperforms state-of-the-art methods at that time.
+
+The design of Alexnet and LeNet are very similar, but Alexnet is much deeper with more filters per layer. It consists of eight layers: five convolutional layers (some of them are followed by max-pooling layers), two fully connected hidden layers, and one fully connected output layer. Especially, training this network is also feasible on multiple GPUs. In ILSVRC 2012, a variant of this model was trained with the contribution of some techniques to avoid overfitting as data augmentation, dropout. Consequently, it won the competition with a top-5 test error rate of 15.3% was achieved.
+
+In this project, we are going to discover the architecture of this network, as well as its implementation on the Keras platform. We further apply this network to the problem of classifying dog and cat images.
